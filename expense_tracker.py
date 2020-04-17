@@ -6,4 +6,7 @@ import scraping
 
 
 if __name__ == "__main__":
+    """The main function that integrating all the branch of the app"""
+
+
     pass

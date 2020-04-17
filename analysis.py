@@ -1,4 +1,5 @@
 """Analysis the data"""
+import scraping
 
 class transaction:
     """This class show each transaction identity
@@ -30,3 +31,7 @@ class transaction:
         """Show the monthly expense by date"""
 
     
+if __name__ == "__main__":
+    """Scraping the data and do the analysis"""
+    # first scrpaing the data by using module in scraping
+    pass
