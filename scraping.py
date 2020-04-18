@@ -1,10 +1,10 @@
-"""Scraping data from resource"""
+"""Scraping data from a csv file"""
 
 
 
 
 
 if __name__ == '__main__':
-    """Scraping data from webpage"""
+    """Scraping data from csv file """
 
     pass
