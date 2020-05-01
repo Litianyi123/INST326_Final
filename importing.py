@@ -107,6 +107,8 @@ def parse_args(my_args_list):
     
 
 if __name__ == '__main__':
+    """Import the file and print the data"""
+    
     #new_args = parse_args(sys.argv[1:])
     #my_import = Import(sys.argv[1])
     #my_import.examine_data()
