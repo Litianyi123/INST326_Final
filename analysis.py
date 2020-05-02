@@ -76,7 +76,7 @@ class Analyze:
         return my_sumbud
 
 if __name__ == "__main__":
-    """Import data and do the anyalze"""
+    """Import data and do the anyalze""" 
 
     my_data = IP.Import("expensetracker.xlsx")
     my_analyze = Analyze(my_data.examine_data())
