@@ -37,5 +37,10 @@ my_account = my_analyze.account()
 assert my_account == 'Checking, Savings' ,\
     "The Account Type Is Wrong"
 
+#7 Test the button feauture in Interface
+my_button = my_interface.button()
+assert my_button == 'Button'
+    "The Button Does Not Work"
+
 print("Passed all tests")
 
