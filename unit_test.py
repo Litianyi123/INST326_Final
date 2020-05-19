@@ -30,7 +30,12 @@ assert my_total == 999.99 , \
 #5 Test sum monthly budget in Analyze
 my_bud = my_analyze.sum_monthly_budget()
 assert my_bud == 3035, \
-    "The Monthly Budget Is Wrong "
+    "The Monthly Budget Is Wrong"
+
+#6 Test the account type in Analyze
+my_account = my_analyze.account()
+assert my_account == 'Checking, Savings' ,\
+    "The Account Type Is Wrong"
 
 print("Passed all tests")
 
